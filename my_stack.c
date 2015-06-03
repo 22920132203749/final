@@ -5,6 +5,8 @@
  *
  */
 
+
+
 #include "include/my_stack.h"
 int  stack[100];
 int top=0; 
@@ -76,22 +78,22 @@ else return 0;
 
 
 
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
-A
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 }
 int  stack[100];
 int top=0; 
