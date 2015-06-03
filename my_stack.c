@@ -7,16 +7,24 @@
 
 
 
-#include "include/my_stack.h"
+
+
+
+
+
+
+include "include/my_stack.h"
 int  stack[100];
-int top=0; 
+int top=0;
 
 void stack_push(int x)
 {
+if(!stack_is_full())
 stack[top++]=x;
 }
 int stack_pop()
 {
+if(!stack_is_empty())
 return stack[--top];
 }
 
@@ -27,7 +35,7 @@ return 100;
 
 int stack_size()
 {
-return top; 
+return top;
 }
 
 int stack_is_empty()
@@ -37,43 +45,7 @@ else return 0;
 }
 int stack_is_full();
 {
-if(top>=100) return 1;
-else return 0;
-}
-
-nclude "include/my_stack..h"
-int  stack[100];
-int top=0; 
-
-void stack_push(int x)
-{
-stack[top++]=x;
-}
-int stack_pop()
-{
-return stack[--top];
-}
-
-int stack_capacity()
-{
-return 100;
-}
-
-int stack_size()
-{
-return top; 
-}
-
-int stack_is_empty()
-{
-if (top==0) return 1;
-else return 0;
-}
-int stack_is_full();
-{
-if(top>=100) return 1;
-else return 0;
-
+if(top>=99) return 1;
 }
 
 
@@ -94,36 +66,102 @@ else return 0;
 
 
 
-}
-int  stack[100];
-int top=0; 
 
-void stack_push(int x)
-{
-stack[top++]=x;
-}
-int stack_pop()
-{
-return stack[--top];
-}
 
-int stack_capacity()
-{
-return 100;
-}
 
-int stack_size()
-{
-return top; 
-}
 
-int stack_is_empty()
-{
-if (top==0) return 1;
-else return 0;
-}
-int stack_is_full();
-{
-if(top>=100) return 1;
-else return 0;
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
